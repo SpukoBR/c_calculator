@@ -6,7 +6,7 @@
 /*   By: peda-cos <peda-cos@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/18 16:04:43 by peda-cos          #+#    #+#             */
-/*   Updated: 2024/09/21 02:18:29 by peda-cos         ###   ########.fr       */
+/*   Updated: 2024/09/21 02:44:30 by peda-cos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int	ft_atoi(const char *str)
 	sign = 1;
 	while (ft_isspace(str[i]))
 		i++;
-	if (str == '\0')
+	if (str == NULL)
 		return (0);
 	if (str[i] == '-' || str[i] == '+')
 	{
