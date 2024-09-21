@@ -6,7 +6,7 @@
 /*   By: peda-cos <peda-cos@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/21 02:26:08 by peda-cos          #+#    #+#             */
-/*   Updated: 2024/09/21 02:48:13 by peda-cos         ###   ########.fr       */
+/*   Updated: 2024/09/21 02:49:44 by peda-cos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	ft_putchar_fd(char c, int fd);
 void	ft_putnbr_fd(int n, int fd);
 void	ft_putstr_fd(const char *s, int fd);
 
-size	ft_strlen(const char *str);
+size_t	ft_strlen(const char *str);
 
 int		add(int a, int b);
 int		subtract(int a, int b);
