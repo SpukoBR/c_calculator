@@ -34,11 +34,11 @@ Este projeto implementa uma calculadora simples na linguagem C, capaz de realiza
    ```
 3. Execute a calculadora:
    ```bash
-   ./calculator <número1> <operador> <número2>
+   ./calc <número1> <operador> <número2>
    ```
    Exemplo:
    ```bash
-   ./calculator 5 + 3
+   ./calc 5 + 3
    ```
    Resultado:
    ```
