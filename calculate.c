@@ -6,7 +6,7 @@
 /*   By: peda-cos <peda-cos@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/21 02:31:23 by peda-cos          #+#    #+#             */
-/*   Updated: 2024/09/21 02:33:18 by peda-cos         ###   ########.fr       */
+/*   Updated: 2024/09/21 03:08:40 by peda-cos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ int	calculate(int num1, char operator, int num2)
 		result = add(num1, num2);
 	else if (operator == '-')
 		result = subtract(num1, num2);
-	else if (operator == '*')
+	else if (operator == 'x')
 		result = multiply(num1, num2);
 	else if (operator == '/')
 		result = divide(num1, num2);
