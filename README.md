@@ -6,7 +6,7 @@ Este projeto implementa uma calculadora simples na linguagem C, capaz de realiza
 
 - Adição: `+`
 - Subtração: `-`
-- Multiplicação: `*`
+- Multiplicação: `x`
 - Divisão: `/` (valida divisão por zero)
 
 ## Estrutura dos Arquivos
