@@ -26,7 +26,7 @@ Este projeto implementa uma calculadora simples na linguagem C, capaz de realiza
 
 1. Clone o repositório:
    ```bash
-   git clone <url-do-repositorio>
+   git clone https://github.com/SpukoBR/c_calculator.git
    ```
 2. Compile o projeto:
    ```bash
